@@ -6,5 +6,4 @@ NDVI2014 <- (NIR2014 - Red2014) /  (NIR2014 + Red2014)
 
 # NDVI difference
 NDVIchange <- NDVI2014 - NDVI1990
-plot(NDVIchange, main = 'NDVI changes between 1990-2014 in Wageningen area')
 

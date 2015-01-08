@@ -1,7 +1,0 @@
-
-NDVI1990 <- (NIR1990 - Red1990) /  (NIR1990 + Red1990)
-NDVI2014 <- (NIR2014 - Red2014) /  (NIR2014 + Red2014)
-
-NDVIchange <- NDVI2014 - NDVI1990
-plot(NDVIchange)
-

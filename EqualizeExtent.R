@@ -14,11 +14,10 @@ ymax_new <- min(ymaxs)
 extent_new = extent(c(xmin_new, xmax_new, ymin_new, ymax_new))
 
 # cropping the images to new extent
-crop(LS1990,y = extent_new)
-crop(LS2014,y = extent_new)
+LS1990_small <- crop(LS1990,y = extent_new)
+LS2014_small <-crop(LS2014,y = extent_new)
 
-# stacking bands that will be used for NDVI (different) calculation
-plot(LS1990)
+plot(LS1990_small[[1]])
 
 
 
